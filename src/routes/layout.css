@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+* {
+	box-sizing: border-box;
+}
