@@ -1,6 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 
+@theme {
+	--color-emerald-50: #ecf8f2;
+	--color-emerald-100: #d9f2e6;
+	--color-emerald-200: #b4e4cc;
+	--color-emerald-300: #8ed7b3;
+	--color-emerald-400: #68ca99;
+	--color-emerald-500: #42bd80;
+	--color-emerald-600: #359766;
+	--color-emerald-700: #28714d;
+	--color-emerald-800: #1b4b33;
+	--color-emerald-900: #0d261a;
+	--color-emerald-950: #091a12;
+
+	--color-seagrass-50: #edf7f3;
+	--color-seagrass-100: #dcefe7;
+	--color-seagrass-200: #b8e0d0;
+	--color-seagrass-300: #95d0b8;
+	--color-seagrass-400: #71c1a1;
+	--color-seagrass-500: #4eb189;
+	--color-seagrass-600: #3e8e6e;
+	--color-seagrass-700: #2f6a52;
+	--color-seagrass-800: #1f4737;
+	--color-seagrass-900: #10231b;
+	--color-seagrass-950: #0b1913;
+
+	--color-antique-white-50: #fcf4e8;
+	--color-antique-white-100: #f9e8d2;
+	--color-antique-white-200: #f4d1a4;
+	--color-antique-white-300: #eeba77;
+	--color-antique-white-400: #e9a449;
+	--color-antique-white-500: #e38d1c;
+	--color-antique-white-600: #b67116;
+	--color-antique-white-700: #885411;
+	--color-antique-white-800: #5b380b;
+	--color-antique-white-900: #2d1c06;
+	--color-antique-white-950: #201404;
+
+	--color-dark-slate-grey-50: #eff6f6;
+	--color-dark-slate-grey-100: #dfecec;
+	--color-dark-slate-grey-200: #bfd9d9;
+	--color-dark-slate-grey-300: #9fc6c6;
+	--color-dark-slate-grey-400: #7eb4b4;
+	--color-dark-slate-grey-500: #5ea1a1;
+	--color-dark-slate-grey-600: #4b8181;
+	--color-dark-slate-grey-700: #396060;
+	--color-dark-slate-grey-800: #264040;
+	--color-dark-slate-grey-900: #132020;
+	--color-dark-slate-grey-950: #0d1616;
+
+	--color-midnight-violet-50: #f8edf7;
+	--color-midnight-violet-100: #f1daee;
+	--color-midnight-violet-200: #e3b5de;
+	--color-midnight-violet-300: #d590cd;
+	--color-midnight-violet-400: #c76bbc;
+	--color-midnight-violet-500: #b946ab;
+	--color-midnight-violet-600: #943889;
+	--color-midnight-violet-700: #6f2a67;
+	--color-midnight-violet-800: #4a1c45;
+	--color-midnight-violet-900: #250e22;
+	--color-midnight-violet-950: #1a0a18;
+}
+
 * {
+	font-family: 'Caacupe One', sans-serif;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--color-antique-white-100);
 }
