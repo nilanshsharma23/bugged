@@ -3,18 +3,19 @@
 	import NavbarLink from './NavbarLink.svelte';
 </script>
 
-<nav class="flex flex-row items-center justify-between bg-panel px-32">
-	<img src={flag} alt="A Hack Club YSWS" class="h-20" />
+<nav class="flex flex-row items-center justify-between border-b border-b-border bg-panel px-32">
+	<a href="http://hackclub.com" target="_blank" rel="noopener noreferrer">
+		<img src={flag} alt="A Hack Club YSWS" class="h-18" /></a
+	>
 	<div class="flex flex-row"></div>
-	<button
-		class="cursor-pointer rounded-lg bg-text px-3 py-1 text-background"
-		onclick={() => {
-			window.open('https://rsvp.hackclub.community/bugged', '_black')?.focus();
-		}}>RSVP</button
+	<a
+		href="https://rsvp.hackclub.community/bugged"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="cursor-pointer rounded bg-text px-3 py-1 text-panel">RSVP</a
 	>
 </nav>
-
-<div class="mx-48 mt-8 flex flex-col">
+<div class="mx-8 my-8 flex flex-col sm:mx-32 md:mx-40 lg:mx-48">
 	<div class="flex flex-row gap-2 text-2xl">
 		<div class="font-bold">hack-club</div>
 		<div class="text-text-soft">/</div>
