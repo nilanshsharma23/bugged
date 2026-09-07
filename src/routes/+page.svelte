@@ -5,6 +5,10 @@
 	import SidePanel from '$lib/components/SidePanel.svelte';
 </script>
 
+<svelte:head>
+	<title>Bugged YSWS</title>
+</svelte:head>
+
 <MainPanel title="README.md">
 	<div class="border-b border-b-border py-2 text-2xl font-bold">bugged</div>
 	<div class="py-2 text-text-soft">all that glitches isn't mold.</div>
