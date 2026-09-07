@@ -3,7 +3,9 @@
 	import NavbarLink from './NavbarLink.svelte';
 </script>
 
-<nav class="flex flex-row items-center justify-between border-b border-b-border bg-panel px-32">
+<nav
+	class="flex flex-row items-center justify-between border-b border-b-border bg-panel px-8 sm:px-32"
+>
 	<a href="http://hackclub.com" target="_blank" rel="noopener noreferrer">
 		<img src={flag} alt="A Hack Club YSWS" class="h-18" /></a
 	>
