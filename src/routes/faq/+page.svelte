@@ -3,6 +3,10 @@
 	import SectionWithHeadingTemplate from '$lib/components/sections/SectionWithHeadingTemplate.svelte';
 </script>
 
+<svelte:head>
+	<title>FAQ - Bugged YSWS</title>
+</svelte:head>
+
 <MainPanel title="FAQ.md">
 	<SectionWithHeadingTemplate heading="Can I Participate?">
 		Of Course! Anyone who's 13-18 years of age (18 Included!) can participate.

@@ -1,6 +1,6 @@
 <script lang="ts"></script>
 
-<div class="my-2 flex w-full flex-row flex-wrap items-center justify-center gap-4">
+<div class="my-4 flex w-full flex-row flex-wrap items-center justify-center gap-4">
 	<div class="font-bold">Hack Club</div>
 	<a
 		href="https://hackclub.com/philosophy"

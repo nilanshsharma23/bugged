@@ -8,10 +8,12 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
-<Navbar />
+<div class="dark">
+	<Navbar />
 
-<div class="mx-4 mb-8 flex flex-col gap-4 sm:mx-24 md:mx-32 md:flex-row md:gap-6 lg:mx-40">
-	{@render children()}
+	<div class="mx-4 mb-4 flex flex-col gap-4 sm:mx-24 md:mx-32 md:flex-row md:gap-6 lg:mx-40">
+		{@render children()}
+	</div>
+
+	<Footer />
 </div>
-
-<Footer />

@@ -4,19 +4,51 @@
 @plugin '@tailwindcss/forms';
 
 @theme {
-	--color-background: #f7f7f5;
-	--color-panel: #ffffff;
-	--color-text: #1b1d1f;
-	--color-text-soft: #5b5f63;
-	--color-border: #d6d8da;
-	--color-border-soft: #e7e8e9;
-	--color-code-bg: #f2f2f0;
-	--color-violet-label: #6e5bc4;
-	--color-violet-bg: #efebfb;
-	--color-slate-label: #3d5a80;
-	--color-slate-bg: #e9eef4;
-	--color-amber-label: #c97a2b;
-	--color-amber-bg: #fbeee0;
+	--color-background: var(--background);
+	--color-panel: var(--panel);
+	--color-text: var(--text);
+	--color-text-soft: var(--text-soft);
+	--color-border: var(--border-color);
+	--color-border-soft: var(--border-color-soft);
+	--color-code-bg: var(--code-bg);
+	--color-violet-label: var(--violet-label);
+	--color-violet-bg: var(--violet-bg);
+	--color-slate-label: var(--slate-label);
+	--color-slate-bg: var(--slate-bg);
+	--color-amber-label: var(--amber-label);
+	--color-amber-bg: var(--amber-bg);
+}
+
+:root {
+	--background: #f7f7f5;
+	--panel: #fff;
+	--text: #1b1d1f;
+	--text-soft: #5b5f63;
+	--border-color: #d6d8da;
+	--border-color-soft: #e7e8e9;
+	--code-bg: #0e0e0b;
+	--violet-label: #6e5bc4;
+	--violet-bg: #efebfb;
+	--slate-label: #3d5a80;
+	--slate-bg: #e9eef4;
+	--amber-label: #c97a2b;
+	--amber-bg: #fbeee0;
+}
+
+.dark {
+	--background: #111213;
+	--panel: #1b1d1f;
+	--text: #f0f1f2;
+	--text-soft: #a0a4a8;
+	--border-color: #33373b;
+	--border-color-soft: #24272a;
+	--code-bg: #080806;
+	--violet-label: #a798f2;
+	--violet-bg: #27223e;
+	--slate-label: #8db3e2;
+	--slate-bg: #1e2836;
+	--amber-label: #f0a359;
+	--amber-bg: #372618;
 }
 
 * {
